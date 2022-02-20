@@ -22,7 +22,6 @@ const About = () => {
       </h2>
 
       <div className="app__profiles">
-        okaty this is sussy bakea
         {abouts.map((about, index) => (
           <motion.div
             whileInView={{ opacity: 1 }}
