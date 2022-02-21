@@ -1,6 +1,6 @@
 #home {
   position: relative;
-  background: url("../../assets/bgIMG.png");
+  background: url("../../assets/ui/bgIMG.png");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
@@ -115,6 +115,7 @@
     img {
       width: 60%;
       height: 60%;
+      object-fit: contain;
     }
   }
 

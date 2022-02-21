@@ -1,39 +1,48 @@
-import email from "../assets/email.png";
-import mobile from "../assets/mobile.png";
-import api from "../assets/api.png";
-import cpp from "../assets/cpp.png";
-import css from "../assets/css.png";
-import figma from "../assets/figma.png";
-import flutter from "../assets/flutter.png";
-import git from "../assets/git.png";
-import graphql from "../assets/graphql.png";
-import html from "../assets/html.png";
-import javascript from "../assets/javascript.png";
-import mu5 from "../assets/mu5.png";
-import node from "../assets/node.png";
-import python from "../assets/python.png";
-import react from "../assets/react.png";
-import redux from "../assets/redux.png";
-import sass from "../assets/sass.png";
-import typescript from "../assets/typescript.png";
-import vue from "../assets/vue.png";
+// tech
+import api from "../assets/tech/api.png";
+import cpp from "../assets/tech/cpp.png";
+import css from "../assets/tech/css.png";
+import figma from "../assets/tech/figma.png";
+import flutter from "../assets/tech/flutter.png";
+import git from "../assets/tech/git.png";
+import graphql from "../assets/tech/graphql.png";
+import html from "../assets/tech/html.png";
+import javascript from "../assets/tech/javascript.png";
+import mu5 from "../assets/tech/mu5.png";
+import node from "../assets/tech/node.png";
+import python from "../assets/tech/python.png";
+import react from "../assets/tech/react.png";
+import redux from "../assets/tech/redux.png";
+import sass from "../assets/tech/sass.png";
+import typescript from "../assets/tech/typescript.png";
+import vue from "../assets/tech/vue.png";
+import tailwind from "../assets/tech/tailwind.png";
+import next from "../assets/tech/next.png";
 
-import about01 from "../assets/about01.png";
-import about02 from "../assets/about02.png";
-import about03 from "../assets/about03.png";
-import about04 from "../assets/about04.png";
+// images
+import about01 from "../assets/images/about01.png";
+import about02 from "../assets/images/about02.png";
+import about03 from "../assets/images/about03.png";
+import about04 from "../assets/images/about04.png";
+import profile from "../assets/images/bmo.gif";
+// import squirtle from "../assets/images/squirtle.gif";
+// import family from "../assets/images/family.png";
 
-import profile from "../assets/squirtle.gif";
-import circle from "../assets/circle.svg";
-import logo from "../assets/logo.png";
+// UI
+import circle from "../assets/ui/circle.svg";
+import logo from "../assets/ui/logo.png";
+import email from "../assets/ui/email.png";
+import mobile from "../assets/ui/mobile.png";
 
-import adidas from "../assets/adidas.png";
-import amazon from "../assets/amazon.png";
-import asus from "../assets/asus.png";
-import bolt from "../assets/bolt.png";
-import nb from "../assets/nb.png";
-import skype from "../assets/skype.png";
-import spotify from "../assets/spotify.png";
+// company
+import adidas from "../assets/company/adidas.png";
+import amazon from "../assets/company/amazon.png";
+import asus from "../assets/company/asus.png";
+import bolt from "../assets/company/bolt.png";
+import nb from "../assets/company/nb.png";
+import skype from "../assets/company/skype.png";
+import spotify from "../assets/company/spotify.png";
+// import fatherhood from "../assets/company/fatherhoodfrenzy.png";
 
 const images = {
   email,
@@ -55,6 +64,8 @@ const images = {
   sass,
   typescript,
   vue,
+  tailwind,
+  next,
   about01,
   about02,
   about03,
