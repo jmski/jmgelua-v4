@@ -1,7 +1,8 @@
 {
   "root": true,
   "project": {
-    "name": "jmgelua-portfolio"
+    "name": "jmgelua-portfolio",
+    "basePath": "/studio"
   },
   "api": {
     "projectId": "f0611nfi",
@@ -15,9 +16,7 @@
   ],
   "env": {
     "development": {
-      "plugins": [
-        "@sanity/vision"
-      ]
+      "plugins": ["@sanity/vision"]
     }
   },
   "parts": [
