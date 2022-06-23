@@ -25,7 +25,7 @@ import about02 from "../assets/images/about02.png";
 import about03 from "../assets/images/about03.png";
 import about04 from "../assets/images/about04.png";
 import profile from "../assets/images/bmo.gif";
-// import squirtle from "../assets/images/squirtle.gif";
+import squirtle from "../assets/images/squirtle.gif";
 // import family from "../assets/images/family.png";
 
 // UI
@@ -80,6 +80,7 @@ const images = {
   nb,
   skype,
   spotify,
+  squirtle,
 };
 
 export default images;

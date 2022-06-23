@@ -3,18 +3,26 @@
 
 import React from "react";
 
+const navDotData = [
+  "home",
+  "home2",
+  "about",
+  "work",
+  "skills",
+  "testimonial",
+  "contact",
+];
+
 const NavigationDots = ({ active }) => (
   <div className="app__navigation">
-    {["home", "about", "work", "skills", "testimonial", "contact"].map(
-      (item, index) => (
-        <a
-          href={`#${item}`}
-          key={item + index}
-          className="app__navigation-dot"
-          style={active === item ? { backgroundColor: "#14b8a6" } : {}}
-        />
-      )
-    )}
+    {navDotData.map((item, index) => (
+      <a
+        href={`#${item}`}
+        key={item + index}
+        className="app__navigation-dot"
+        style={active === item ? { backgroundColor: "#14b8a6" } : {}}
+      />
+    ))}
   </div>
 );
 
